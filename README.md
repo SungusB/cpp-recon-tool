@@ -31,5 +31,16 @@ make
 ```
 
 **Rodar**
-Modo de rodar deve seguir o formato ./recon MODO IP PORTA_INICIAL PORTA_FINAL
+Execução: A sintaxe é: ./recon <modo> <IP> <porta_inicio> <porta_fim>
 
+    Modo Rápido (f): Usa 50 threads e timeout de 1s (Estilo Masscan).
+
+    Modo Preciso (s): Usa conexão sequencial com timeout maior (Estilo Nmap padrão).
+
+
+'''bash
+# Exemplo: Scan Rápido no Google DNS (Portas 1 a 100)
+./recon f 8.8.8.8 1 100
+
+# Exemplo: Scan Lento/Preciso no Localhost
+./recon s 127.0.0.1 20 8080
