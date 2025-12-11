@@ -28,3 +28,8 @@ mkdir build
 cd build
 cmake ..
 make
+```
+
+**Rodar**
+Modo de rodar deve seguir o formato ./recon MODO IP PORTA_INICIAL PORTA_FINAL
+
