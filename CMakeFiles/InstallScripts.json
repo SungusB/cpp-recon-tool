@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/hsungus/cpp-recon-tool/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
